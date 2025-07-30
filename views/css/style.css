@@ -1,0 +1,11 @@
+/* style.css */
+body {
+  background-image: url('assets/background.png'); /* Adjust path as needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  padding: 25px 50px;
+}
+
