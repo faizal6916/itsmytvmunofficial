@@ -1,0 +1,26 @@
+  .contribute-section {
+      background-color: #0F172A;
+      /* color: white; */
+      padding: 2rem;
+      border-radius: 30px;
+    }
+    .contribute-section img {
+      width: 100%;
+      height: auto;
+      max-height: 500px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-left: 40px;
+    }
+   .form-control, .form-control:focus {
+      background-color: #1E293B;
+      border: 1px solid #334155;
+      color: white;
+    }
+    .form-label {
+      color: #cbd5e1;
+    }
+    .btn-primary {
+      background-color: #3B82F6;
+      border: none;
+    }

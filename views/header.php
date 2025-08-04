@@ -5,11 +5,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Its My Tvm</title> 
+  <link rel="stylesheet" href="views/css/style.css">
+  <link rel="stylesheet" href="views/css/formstyle.css">
+  <link rel="stylesheet" href="views/css/aboutstyle.css">
+  <link rel="stylesheet" href="views/css/explorestyle.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Sofia&display=swap">
-  <link rel="stylesheet" href="views/css/style.css">
+  <style>
+    .form-control, .form-control:focus {
+      background-color: #1E293B;
+      border: 1px solid #334155;
+      color: white;
+    }
+    .form-label {
+      color: #cbd5e1;
+    }
+  </style>
 </head>
-
     <body class="d-flex flex-column min-vh-100">
 
 <!-- Navbar -->

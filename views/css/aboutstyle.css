@@ -1,0 +1,18 @@
+ .custom-section {
+      background-color: #0F172A;
+      color: #f1f5f9;
+      padding: 2rem 1rem;
+      border-radius: 30px;
+    }
+    .custom-img {
+      width: 100%;
+      height: auto;
+      max-height: 500px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    @media (min-width: 992px) {
+      .custom-text {
+        padding-right: 2rem;
+      }
+    }

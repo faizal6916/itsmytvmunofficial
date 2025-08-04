@@ -4,8 +4,12 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
   min-height: 100vh;
   margin: 0;
-  padding: 25px 50px;
+  padding: 0 50px;
+  /* padding: 10px 20px; */
 }
+
+
 
