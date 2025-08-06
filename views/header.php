@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="views/css/explorestyle.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Sofia&display=swap">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <style>
     .form-control, .form-control:focus {
       background-color: #1E293B;
