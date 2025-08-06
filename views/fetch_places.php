@@ -1,17 +1,17 @@
 <?php
-$host = 'localhost';
-$db = 'itsmytvm';
-$user = 'root';
-$pass = '';
-$charset = 'utf8mb4';
+// $host = 'localhost'; 
+// $db = 'itsmytvm';
+// $user = 'root';
+// $pass = '';
+// $charset = 'utf8mb4';
 
-$conn = new mysqli($host, $user, $pass, $db);
-$conn->set_charset($charset);
+// $conn = new mysqli($host, $user, $pass, $db);
+// $conn->set_charset($charset);
 
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
+// if ($conn->connect_error) {
+//     die("Connection failed: " . $conn->connect_error);
+// }
+require_once 'dbConfig.php';
 $sql = "SELECT id,place_name, description, your_name, image_path, created_at FROM places ORDER BY created_at ASC";
 $result = $conn->query($sql);
 
