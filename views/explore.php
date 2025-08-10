@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-<div class="container-fluid exploresection">
+<div class="container-fluid  exploresection">
   <!-- Heading -->
   <div class="row mb-5">
     <div class="col text-center text-success">
@@ -9,9 +9,11 @@
 
   <!-- Content Row -->
    
-  <div class="row align-items-start g-4" id="placesList">
+  <div class="row align-items-start g-4"  id="placesList"></div>
     
-  </div>
+   
+<?php include 'footer.php'; ?>
+</div>
 <script>
         function loadPlaces() {
             $.ajax({
@@ -36,10 +38,10 @@
                                      </p>
                                    </div>
                                    <div style="padding-top: 10px;">
-                                     <h4>Contributed By ${place.your_name} on ${place.created_at}</h4>
+                                     <h4><i>Contributed By ${place.your_name} on ${place.created_at}</i></h4>
                                   </div>
                                   </div>
-                                  </div>
+                                 
                                   
                             `;
                         });
@@ -59,4 +61,3 @@
             loadPlaces();
         });
     </script>
-<?php include 'footer.php'; ?>

@@ -1,5 +1,5 @@
 <!-- includes/footer.php -->
-<footer class="navbar-dark text-dark text-center py-3 mt-auto">
+<footer class="navbar-dark text-white text-center py-3 mt-auto">
   <p class="mb-0">&copy; 
     <?= date('Y') ?>
     MyWebsite. All rights reserved.</p>

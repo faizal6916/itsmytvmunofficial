@@ -26,7 +26,7 @@
     <body class="d-flex flex-column min-vh-100">
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg bg-transparent">
+<nav class="navbar navbar-expand-lg text-white bg-transparent">
   <div class="container-fluid">
     <a class="navbar-brand" href="http://localhost/itsmytvmunofficial/"><img src="views/css/assets/itsmytvmlogo.png"> </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

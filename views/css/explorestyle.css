@@ -1,8 +1,11 @@
     .exploresection {
       background-color: #0F172A;
       color: #F1F5F9;
-      padding: 3rem 1rem;
+      /* padding: 3rem 1rem; */
+      padding-right: 3rem;
+      padding-left: 3rem;
       border-radius: 30px;
+      margin-bottom: 50px;
     }
 
     .slno-circle {
