@@ -3,17 +3,18 @@
   <!-- Heading -->
   <div class="row mb-5">
     <div class="col text-center text-success">
-      <h2>Explore The Destinations in Thiruvananthapuram District</h2>
+      <h2 style=" font-family: 'Sofia', sans-serif;">Explore The Destinations in Thiruvananthapuram District</h2>
     </div>
   </div>
 
   <!-- Content Row -->
    
-  <div class="row align-items-start g-4"  id="placesList"></div>
-    
+  <div class="row align-items-start g-4"  id="placesList"></div> 
+
+  </div> 
    
-<?php include 'footer.php'; ?>
-</div>
+
+
 <script>
         function loadPlaces() {
             $.ajax({
@@ -41,6 +42,7 @@
                                      <h4><i>Contributed By ${place.your_name} on ${place.created_at}</i></h4>
                                   </div>
                                   </div>
+                                  
                                  
                                   
                             `;
@@ -61,3 +63,4 @@
             loadPlaces();
         });
     </script>
+<?php include 'footer.php'; ?>

@@ -1,11 +1,16 @@
 /* style.css */
-body {
+* {
+    box-sizing: border-box;
+}
+
+html,body {
   background-image: url('assets/background.png'); /* Adjust path as needed */
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
   background-repeat: no-repeat;
-  
-  /* min-height: 100vh; */
+  min-height: 100vh;
+  /* height: 100%; */
   margin: 0;
   padding: 0 50px;
   /* padding: 10px 20px; */

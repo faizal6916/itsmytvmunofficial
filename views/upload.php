@@ -1,16 +1,4 @@
 <?php
-// $host = 'localhost';
-// $db = 'itsmytvm';
-// $user = 'root';
-// $pass = '';
-// $charset = 'utf8mb4';
-
-// $conn = new mysqli($host, $user, $pass, $db);
-// $conn->set_charset($charset);
-
-// if ($conn->connect_error) {
-//     die("Connection failed: " . $conn->connect_error);
-// }
 require_once 'dbConfig.php';
 $place_name = $conn->real_escape_string($_POST['place_name']);
 $description = $conn->real_escape_string($_POST['description']);
