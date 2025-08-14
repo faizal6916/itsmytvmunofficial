@@ -25,6 +25,7 @@
         <div class="mb-3">
           <label for="imageUpload" class="form-label">Choose Image</label>
           <input type="file" class="form-control" name="image" accept="image/*" id="imageUpload" required>
+          <span style="color:#f2f2f2;"><i>Image size should be less than 300kb</i></span>
         </div>
         <button type="submit" class="btn btn-success">Contribute</button>
       </form>
@@ -49,7 +50,7 @@
                         $('#response').html(response).css({
                             'color': '#198754',
                             'font-weight': 'bold',
-                            'padding': 25px 25px,
+                            'padding': '30px 15px',
                         });
                          // Clear the form
                         $('#uploadForm')[0].reset();
@@ -58,7 +59,7 @@
                         $('#response').html('An error occurred.').css({
                             'color': '#FA8072',
                             'font-weight': 'bold',
-                            'padding': 25px 25px,
+                            'padding': '30px 15px',
                        });
                     }
                 });

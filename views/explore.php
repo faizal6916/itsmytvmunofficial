@@ -3,7 +3,7 @@
   <!-- Heading -->
   <div class="row mb-5">
     <div class="col text-center text-success">
-      <h2 style=" font-family: 'Sofia', sans-serif;">Explore The Destinations in Thiruvananthapuram District</h2>
+      <h2 style=" font-family: 'Sofia', sans-serif; color:#34C759;">Explore The Destinations in Thiruvananthapuram District</h2>
     </div>
   </div>
 

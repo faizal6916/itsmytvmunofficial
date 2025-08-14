@@ -8,7 +8,7 @@
     <!-- Left column: Heading + Paragraph -->
     <div class="col-12 col-md-6">
       <h1 class="mb-3 text-white" style=" font-family: 'Sofia', sans-serif;">Ananthapuri</h1>
-      <p class="mb-2 text-muted">
+      <p class="mb-2" style=" color: rgba(242, 242, 242, 0.5);">
         &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
         Thiruvananthapuram, the "City of the Lord Anantha,
         " drapes itself across seven hills where history and divinity intertwine under the shade of coconut palms. 

@@ -4,7 +4,7 @@
     <!-- Left: Paragraph -->
     <div class="col-lg-6 custom-text" style="text-align: justify;">
       
-      <p style="padding: 50px;">
+      <p style="font-family: 'Sofia', sans-serif; padding: 50px;">
                           &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  
                           We are a vibrant team of creators, strategists, and innovators united by a single passion:  
                           Drawing inspiration from the dynamic culture of Kerala, 
