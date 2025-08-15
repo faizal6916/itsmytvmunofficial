@@ -48,18 +48,18 @@
                     processData: false,
                     success: function (response) {
                         $('#response').html(response).css({
-                            'color': '#198754',
+                            'color': '#34C759',
                             'font-weight': 'bold',
-                            'padding': '30px 15px',
+                            'padding': '15px 30px',
                         });
                          // Clear the form
                         $('#uploadForm')[0].reset();
                     },
                     error: function () {
                         $('#response').html('An error occurred.').css({
-                            'color': '#FA8072',
+                            'color': '#F2F2F2',
                             'font-weight': 'bold',
-                            'padding': '30px 15px',
+                            'padding': '15px 30px',
                        });
                     }
                 });
